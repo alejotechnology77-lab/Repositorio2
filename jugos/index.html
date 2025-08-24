@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRUNI - Jugos Naturales</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;600&family=Roboto:wght@300;400&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo-container">
+                <a href="#"><img src="./img/logo-bruni.png" alt="Logo principal de BRUNI" class="logo logo-1"></a>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home-content" class="nav-link" data-target="home-content"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="#jugos-content" class="nav-link" data-target="jugos-content"><i class="fas fa-blender"></i> Jugos Naturales</a></li>
+                <li><a href="#reseñas-content" class="nav-link" data-target="reseñas-content"><i class="fas fa-star"></i> Reseñas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div id="home-content" class="content-section active">
+            <section class="hero-section">
+                <div class="hero-content">
+                    <h1 class="main-title">BRUNI</h1>
+                    <p class="subtitle">Frescura Natural en Cada Botella</p>
+                    <a href="#jugos-content" class="cta-button" data-target="jugos-content">VER JUGOS</a>
+                </div>
+            </section>
+        </div>
+
+        <div id="jugos-content" class="content-section">
+            <section class="product-section">
+                <h2 class="section-title">Nuestros Jugos Naturales</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image-container">
+                            <img src="./img/arandano.png" alt="Néctar de Arándano" class="product-image">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Néctar de Arándano</h3>
+                            <p class="product-description">Un néctar 100% natural, elaborado con fruta orgánica cultivada en las mejores tierras del país, obteniendo un producto de excelente calidad, con sabor inigualable y beneficios para tu salud.</p>
+                            <p class="product-price">$8.000 COP</p>
+                            <a href="https://wa.me/573234405025?text=¡Hola!%20Me%20interesa%20el%20Néctar%20de%20Arándano." target="_blank" class="buy-button">Comprar <i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                <a href="#reseñas-content" class="next-section-btn" data-target="reseñas-content">Siguiente Sección <i class="fas fa-arrow-down"></i></a>
+            </section>
+        </div>
+        
+        <div id="reseñas-content" class="content-section">
+            <section class="about-section">
+                <h2 class="section-title">Beneficios y Reseñas</h2>
+                <div class="about-content">
+                    <h3>Beneficios del Néctar de Arándano</h3>
+                    <p>El arándano es conocido por sus propiedades antioxidantes. Es rico en vitamina C y E, lo que ayuda a fortalecer el sistema inmunológico y a proteger las células del daño. También es beneficioso para la salud urinaria y la visión. ¡Un jugo delicioso y poderoso!</p>
+                    
+                    <h3>Lo que dicen nuestros clientes</h3>
+                    <div class="review-card">
+                        <p class="review-text">"¡Increíblemente refrescante y con un sabor auténtico! Se nota la calidad de la fruta. Lo recomiendo al 100%."</p>
+                        <p class="review-author">- María P.</p>
+                    </div>
+                    <div class="review-card">
+                        <p class="review-text">"Este jugo de arándano es mi favorito para después de entrenar. Me da la energía que necesito y sabe delicioso."</p>
+                        <p class="review-author">- Carlos G.</p>
+                    </div>
+                </div>
+                <a href="#home-content" class="next-section-btn" data-target="home-content">Volver al Inicio <i class="fas fa-arrow-up"></i></a>
+            </section>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-icons">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/573234405025" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <div class="contact-info">
+                <p>Contacto: bruni.jugosnaturales@gmail.com</p>
+            </div>
+            <p class="copyright">&copy; 2025 BRUNI. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
