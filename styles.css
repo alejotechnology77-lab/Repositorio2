@@ -322,6 +322,19 @@ body {
     margin-left: 8px;
 }
 
+/* Estilos para detalles de productos */
+.product-details {
+    margin-top: 1rem;
+    color: var(--color-gray);
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.product-details p {
+    margin: 0.2rem 0;
+}
+
+
 /* Botón para siguiente sección */
 .next-section-btn {
     display: block;
